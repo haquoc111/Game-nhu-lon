@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: md5-ai-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
